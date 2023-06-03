@@ -3,14 +3,14 @@ import Image from "next/image";
 const Nav =() =>{
     return(
 
-        <div className="flex flex-shrink">        
+        <div className="">        
             <div className="">
                 <nav className="bg-green-600  flex">
-                    <div className="flex justify-start items-center mx-28">
+                    <div className="flex justify-start items-center mx-28 sm:flex-shrink">
                        <Image src={"/image/logo.jpg"} alt="logo" width={500} height={300} 
                        className="w-48"/>
                     </div>
-                    <div className="mx-64 p-8">
+                    <div className="mx-64 p-8 sm:flex-shrink">
                         <Link className="text-white p-6 font-bold text-l " href={"/"}>Home</Link>
                         <Link className="text-white p-6 font-bold text-l " href={"About"}>About</Link>
                         <Link className="text-white p-6 font-bold text-l " href={"Skill"}>Skill</Link>
