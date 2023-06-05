@@ -13,7 +13,7 @@ import Contact from "./Contact/page";
 export default function Home() {
   return (
       <div className="bg-white h-screen ">
-          <div className="mx-auto flex items-center justify-center py-28 px-10 ">
+          <div className="container mx-auto flex items-center justify-center py-28 px-10 ">
             <div className=" flex flex-col ">
                 <h1 className="text-blue-600 text-6xl pr-40 font-bold"> I'm Muhammad Farhan
                   <br className="" />
@@ -40,9 +40,9 @@ export default function Home() {
                 <Button className="bg-green-500 w-fit  ">Learn more</Button>
                 
             </div>
-            <div className="pr-20 ">
-                  <Image src={"/image/personal.jpg"} alt="personal pic" width={600} height={300} 
-                  className="flex rounded-full shadow-black shadow-2xl " />
+            <div className="">
+                  <Image src={"/image/personal1.jpg"} alt="personal pic" width={500} height={500} 
+                  className="rounded-full shadow-black shadow-2xl " />
             </div>
             <div>
             
