@@ -3,11 +3,11 @@ import { Button } from "../../../components/ui/button";
 const Contact =() =>{
     return(
         <div className="bg-gray-200  ">
-            <div className="pb-24">
+            <div className="container pb-24 flex-wrap">
                     <h1 className="text-4xl text-blue-600 font-bold px-40 py-16">
                         Contact Us
                     </h1>
-                <div className="bg-white mx-40 flex flex-col py-16 px-20  rounded-xl shadow w-[800px] ">
+                <div className="bg-white flex-1 flex flex-col py-16 px-20  rounded-xl shadow w-[800px] sm:flex-wrap ">
                     <input className="m-4 text-xl border-2 border-blue-500 rounded-lg p-4  " type="text" placeholder="Name" />
                     <input className="m-4 text-xl border-2 border-blue-500 rounded-lg p-4  " type="text" placeholder="Email Adrees" />
                     <input className="m-4 text-xl border-2 border-blue-500 rounded-lg p-4 " type="text" placeholder="Comment" />

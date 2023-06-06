@@ -32,7 +32,7 @@ export default function Home() {
             
             </div>
             <div className="flex flex-col items-center ">
-              <div className="m-10">
+              <div className="m-6">
                   <Image src={"/image/personal1.jpg"} alt="personal pic" width={250} height={100} 
                   className="rounded-full shadow-black shadow-2xl " />
               </div>
